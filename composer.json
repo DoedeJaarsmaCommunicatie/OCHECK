@@ -1,8 +1,8 @@
 {
   "require": {
-        "yahnis-elsts/plugin-update-checker": "^4.6",
+        "yahnis-elsts/plugin-update-checker": "^4.7",
         "aristath/kirki": "^3.0",
-        "timber/timber": "^1.10",
+        "timber/timber": "^1.11",
         "jjgrainger/posttypes": "^2.0",
         "htmlburger/carbon-fields": "^3.1",
         "dusank/knapsack": "^10.0"
