@@ -1,0 +1,6 @@
+{% set _logo = Image(theme.theme_mod('custom_logo')) %}
+
+<img alt="{{ _logo.alt?? site.title }}"
+     class="custom-logo"
+     src="{{ _logo.src }}"
+    />

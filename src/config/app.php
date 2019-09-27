@@ -1,6 +1,12 @@
 <?php
 namespace App;
 
+use App\Providers\CarbonServiceProvider;
+use App\Providers\ElementorServiceProvider;
+
 return [
-	'providers'     => []
+	'providers'     => [
+		CarbonServiceProvider::class,
+		ElementorServiceProvider::class,
+	]
 ];
