@@ -1,0 +1,12 @@
+.submit-container {
+  margin-bottom: 0 !important;
+  margin-top: 2rem !important;
+}
+
+.field-wrap {
+
+  input[type="button"].ninja-forms-field {
+    @apply bg-yankee text-vanilla;
+    width: 100%;
+  }
+}

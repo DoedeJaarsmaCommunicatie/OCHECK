@@ -1,0 +1,7 @@
+nf-fields-wrap {
+  display: grid;
+  @media screen and (min-width: 1025px) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px 20px;
+  }
+}

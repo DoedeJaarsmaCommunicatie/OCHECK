@@ -1,0 +1,23 @@
+input.ninja-forms-field {
+  padding: 0.8rem;
+  border-radius: 12px;
+}
+
+select.ninja-forms-field {
+  border-radius: 12px;
+  padding: .8rem;
+  appearance: textfield;
+}
+
+.list-select-wrap {
+  position: relative;
+  &::after {
+    font-family: "Font Awesome 5 Free";
+    content: '\f078';
+    position: absolute;
+    color: #133545;
+    top: 3rem;
+    right: 1rem;
+    z-index: 10;
+  }
+}
